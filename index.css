@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    border-bottom: solid white 5px;
+   
+}
+.h-logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.h-logo img{
+    width: 80px;
+    height: 80px;
+}
+.h-logo ul{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    padding: 30px 40px;
+}
+.h-logo a{
+    color: whitesmoke;
+    font-size: 18px;
+}
+.h-logo a:hover{
+    border-bottom: solid 2px white;
+}
+header{
+    margin-top:85px;
+    width: 100%;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex: wrap;
+    border-bottom: solid white 5px;
+    
+}
+.header-1{
+    background-color: rgb(12, 12, 12);
+    width: 50%;
+}
+.header-2{
+    width: 50%;
+    background: url("img/n1-compu.png") center center/cover no-repeat;
+}
+header h3{
+    margin: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    padding-top: 120px;
+}
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 34px;
+    padding-top: 30px;
+}
+header h2{
+    padding-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: lighter;
+}
+a[title="bottom"]{
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 50px;
+    bottom: pointer;
+    padding: 20px 30px;
+    background-color: black;
+    border: solid 2px white;
+    border-radius: 20%;
+    color: white;
+    text-transform: uppercase;
+
+}
+.acercade{
+    padding-top: 30px;
+    background-color: rgb(12, 12, 12);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+    height: 360px;
+    
+}
+.acercade img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20%;
+    background-color: rgb(12, 12, 12);
+    box-shadow: 20px 20px 10px 0px rgb(0, 0, 0);
+
+    
+}
+section .sec-ace-1{
+    width: 100%;
+    height: 340px;
+    color: white;
+}
+
+section .sec-ace{
+    width: 100%;
+    height: 340px;
+    box-shadow: 20px 20px 10px 0px rgba(0,0,0,1);
+
+    border-radius: 20%;
+}
+
+h3[title="t-serv"]{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 45px;
+    color: white;
+}
+.servicios{
+    background-color: rgb(12, 12, 12);
+    
+}
+section[title="sec-1"]{
+    background-color: black;
+    padding-right:30px; 
+    padding-left: 30px;
+}
+section[title="sec-1"] p,section[title="sec-2"] p{
+    color: white;
+    text-align: start;
+    padding: 0 20px;
+}
+
+section[title="sec-2"]{
+    background-color: black;
+    padding-right:30px; 
+    padding-left: 30px;
+    border-bottom: solid white 5px;
+}
+section[title="sec-2"] h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px 0;
+}
+
+.serv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    height: 460px;
+    
+}
+.serv img{
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    
+
+}
+.bx-wrapper {
+    border: none;
+    background-color: #000000;
+}
+.slider img{
+    width: 100%;
+    height: 400px;
+
+}
+section[title="diseño"]{
+
+    background-color: black;
+    padding: 30px 0;
+    margin: 0;
+}
+.slider h1{
+    text-transform: capitalize;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+.contactos{
+    width: 100%;
+    height: 730px;
+    color:white;
+    text-align: center;
+}
+.contactos h1{
+    font-size: 40px;
+    padding: 50px;
+}
+
+input[type="text"], input[type="email"]{
+    width: 40%;
+    display: inline-block;
+    padding: 5px;
+    border:none;
+    background-color: white;
+    margin: 20px;
+}
+textarea{
+    width: 85%;
+    display: inline-block;
+    padding: 5px;
+    border:none;
+    background-color: white;
+    margin: 20px;}
+footer{
+    background-color:rgb(12, 12, 12);
+    display: block;
+    
+    border-top: white solid 5px;
+    
+    padding: 40px 20px;
+    height: 110px;
+}
+.links{
+    font-size:2.2rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.links a{
+    color:white;
+    padding-left: 30px;
+}
+footer h1{
+    font-weight: lighter;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
